@@ -1,0 +1,203 @@
+/* 使子元素可以继承父级样式 */
+
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: -apple-system, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.5;
+    height: 2000px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+header {
+    overflow: hidden;
+}
+
+header section {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+}
+
+header section:nth-child(1) {
+    width: 8%;
+}
+
+header section:nth-child(1) img {
+    width: 10px;
+    height: 10px;
+}
+
+header section:nth-child(2) {
+    width: 10%;
+}
+
+header section:nth-child(2) img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+header section:nth-child(3) {
+    width: 57%;
+}
+
+header section:nth-child(4) {
+    width: 25%;
+    background: #F63515;
+}
+
+.search {
+    position: fixed;
+    overflow: hidden;
+    height: 44px;
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    background: pink;
+}
+
+.search div:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 44px;
+    height: 44px;
+    background: red;
+}
+
+.search div:nth-child(1) img {
+    width: 20px;
+    height: 18px;
+    margin: 10px 0 0 18px;
+}
+
+section div.two {
+    height: 30px;
+    margin: 7px 50px 0;
+    border-radius: 15px;
+    background: #fff;
+}
+
+section div.two img {
+    width: 20px;
+    height: 15px;
+    padding-right: 5px;
+    margin: 8px 0 0 14px;
+    border-right: 1px solid #ccc;
+}
+
+section div:nth-child(2) i {
+    position: absolute;
+    top: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    margin-left: 5px;
+    background: url(../imgs/jd-sprites.png) no-repeat -120px 0;
+    background-size: 200px;
+}
+
+.search div:nth-child(3) {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: purple;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.shopday {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.shopday div {
+    float: left;
+    width: 33.33%;
+}
+
+.shopday div a {
+    display: block;
+}
+
+.shopday div img {
+    width: 100%;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+nav a img {
+    width: 40px;
+    margin: 15px 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    overflow: hidden;
+}
+
+ul li {
+    box-sizing: border-box;
+    float: left;
+}
+
+ul li a {
+    float: left;
+    display: block;
+}
+
+ul li:nth-child(1) {
+    width: 50%;
+}
+
+ul li:nth-child(2) {
+    width: 25%;
+    border-left: 1px solid #ccc;
+}
+
+ul li:nth-child(3) {
+    width: 25%;
+    border-left: 1px solid #ccc;
+}
+
+ul li img {
+    width: 100%;
+}
